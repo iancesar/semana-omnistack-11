@@ -9,7 +9,7 @@ const routes = express.Router();
 /**
  * Session Route
  */
-routes.get('/session', SessionController.create)
+routes.post('/session', SessionController.create)
 
 /**
  * Ongs Route
